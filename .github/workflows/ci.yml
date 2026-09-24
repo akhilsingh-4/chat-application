@@ -10,5 +10,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: show files
+      - name: Show files
         run: ls
+
+      - name: Show current directory
+        run: pwd
