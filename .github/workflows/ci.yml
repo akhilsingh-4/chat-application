@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: check project
+      - name: check project files
         run: |
-          echo "Starting check..."
-          echo "Project check passed!"
+          ls
+          test -f package.json
