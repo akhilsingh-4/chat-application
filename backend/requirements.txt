@@ -13,3 +13,4 @@ alembic
 boto3
 python-multipart
 gunicorn
+pytest
