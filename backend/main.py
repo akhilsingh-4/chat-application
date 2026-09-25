@@ -43,4 +43,11 @@ app.include_router(groups.router, prefix="/api")
 app.include_router(websocket_router, prefix="/api")
 
 
+@app.get("/health")
+@app.get("/api/health")
+def health_check():
+    return {"status": "ok"}
+
+
+
 
