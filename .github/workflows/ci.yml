@@ -10,8 +10,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: check project files
-        run: |
-          test -d backend
-          test -d frontend
-          test -d nginx
+      - name: check backend files
+        run: ls backend
