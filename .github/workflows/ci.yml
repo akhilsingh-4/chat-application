@@ -12,5 +12,6 @@ jobs:
 
       - name: check project files
         run: |
-          ls
-          test -f docker-compose.yml
+          test -d backend
+          test -d frontend
+          test -d nginx
