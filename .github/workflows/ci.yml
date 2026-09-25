@@ -10,5 +10,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Read package.json
-        run: cat package.json
+      - name: Read README.md
+        run: cat README.md
