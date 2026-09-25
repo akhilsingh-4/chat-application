@@ -10,8 +10,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: check backend
+      - name: check backend files
         working-directory: backend
         run: |
           pwd
-          ls
+          test -f requirements.txt
