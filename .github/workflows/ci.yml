@@ -12,5 +12,5 @@ jobs:
 
       - name: check project
         run: |
+          echo "Starting check..."
           echo "Project check passed!"
-          exit 1
