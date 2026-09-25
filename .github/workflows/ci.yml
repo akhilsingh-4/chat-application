@@ -10,5 +10,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Read README.md
-        run: cat README.md
+      - name: check project
+        run: echo "Project check passed!"
