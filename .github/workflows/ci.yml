@@ -12,6 +12,4 @@ jobs:
 
       - name: check backend files
         working-directory: backend
-        run: |
-          pwd
-          test -f requirements.txt
+        run: pip install -r requirements.txt
