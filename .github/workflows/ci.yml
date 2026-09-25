@@ -13,4 +13,4 @@ jobs:
       - name: check project files
         run: |
           ls
-          test -f package.json
+          test -f docker-compose.yml
