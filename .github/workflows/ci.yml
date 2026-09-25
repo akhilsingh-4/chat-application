@@ -10,8 +10,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Show files
-        run: ls
-
-      - name: Show current directory
-        run: pwd
+      - name: Read package.json
+        run: cat package.json
